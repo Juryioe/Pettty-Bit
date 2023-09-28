@@ -11,7 +11,7 @@ body {
     #040006
   );
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -23,7 +23,7 @@ body {
 }
 .header {
   width: 100%;
-  height: 150px;
+  height: 100px;
   display: flex;
   .logo {
     img {
@@ -61,5 +61,17 @@ body {
         padding-right: 0;
       }
     }
+  }
+}
+
+.content {
+  position: relative;
+  //   outline: 1px solid red;
+  min-height: 737px;
+  img.dogs_bg {
+    position: absolute;
+    bottom: -0px;
+    right: -103px;
+    width: 900px;
   }
 }
